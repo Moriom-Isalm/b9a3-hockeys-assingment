@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B9A3-Hockeys Assingment</title>
+     <!--Tailwind And Daisy UI-->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+         <!--google manrope font-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&
+     display=swap" rel="stylesheet">
+     <!--font awsome-->
+     <script src="https://kit.fontawesome.com/fba95a7850.js" crossorigin="anonymous"></script>
+     <!--Tailwind customize setup-->
+     <script>
+         tailwind.config = {
+           theme: {
+             extend: {
+               colors: {
+                 clifford: '#da373d',
+                 
+               }
+             }
+           }
+         }
+       </script>
+     <style>
+         .font-manrope{
+             font-family: 'Manrope', sans-serif;
+         }
+     </style>
+</head>
+<body class="font-family">
+    <header class="container max-w-6xl mx-auto mb-8 lg:mb-24">
+         <!--nav section start-->
+         <!--nav section end-->
+         <!--Banner section start-->
+         <div class="relative">
+          <div class="carousel">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!--Banner section end-->
+         <!--Badge section Start-->
+         <div>
+          <div class="bg-black lg:absolute lg:-mt-48 lg:ml-96 lg:max-w-xl p-8">
+            <h4 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h4>
+            <p class="text-white font-medium">Hockey is the national game of India. Also, it is a popular game and an interesting game that many countries play.</p>
+          </div>
+         </div>
+         <!--Badge section end-->
+
+    </header>
+    <main class="container max-w-6xl mx-auto">
+       <!-- Professional Hockeys section start-->
+       <section>
+         <div class="border-dotted border-y-2 ">
+          <div class="grid justify-center text-center py-8 space-y-4">
+            <h5 class="font-extrabold text-3xl">Professional Hockeys Club</h5>
+            <p>Hockey is considered the national sport of India due to 
+               its popularity and <br> outstanding performance</p>
+           </div>
+         </div>
+         <div class="">
+          <div class="grid grid-cols-1 justify-center items-center text-center lg:grid-cols-4 lg:mx-44 space-y-6">
+             <!-- First progress-->
+          <div>
+            <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+            <h6 class="font-semibold text-xl">Experienced Coach</h6>
+            <p>USA Hockey trains youth<br> hockey coaches </p>
+          </div>
+          <!-- Second progress-->
+          <div>
+            <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+            <h6 class="font-semibold text-xl">Experienced Coach</h6>
+            <p>USA Hockey trains youth<br> hockey coaches </p>
+          </div>
+          <!-- Third progress-->
+          <div>
+            <div class="radial-progress text-yellow-500" style="--value:80;" role="progressbar">80%</div>
+            <h6 class="font-semibold text-xl">Senior Player</h6>
+            <p>From the age of 13 <br> place locally </p>
+          </div>
+          <!-- Fourth progress-->
+          <div>
+            <div class="radial-progress text-red-500" style="--value:90;" role="progressbar">90%</div>
+            <h6 class="font-semibold text-xl">Training Ground</h6>
+            <p>ultimate training ground for <br> develope hands </p>
+          </div>
+          </div>
+           </div>
+         </div>
+       </section>
+       <!-- Professional Hockeys section end-->
+       
+    </main>
+    <footer></footer>
+</body>
+</html>
